@@ -258,6 +258,7 @@ footer>.copyright{
     }
     #kecil{
         display: flex;
+         width: 100%;
     }
     
 
