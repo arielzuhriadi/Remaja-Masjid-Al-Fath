@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="style/kontak.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image/logo/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- start navigation -->
+    <header>
+        <div class="container">
+
+            <nav>
+                <div class="logo">
+                    <img src="image/logo.png" alt="logo" width="100%">
+                </div>
+                <div class="judul">
+                    <h1>REMAJA MASJID AL-FATH</h1>
+                </div>
+                <ul class="nav-utama">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="pengurus.html">Pengurus</a></li>
+                    <li><a href="kegiatan.html">Kegiatan</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+
+                <div class="burger-button" id="burgerButton">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+            </nav>
+
+        </div>
+    </header>
+
+
+
+    <!-- start navigation phone -->
+    <ul id="navBurger">
+        <div class="nav-phone">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tentang.html">Tentang Kami</a></li>
+            <li><a href="pengurus.html">Pengurus</a></li>
+            <li><a href="kegiatan.html">Kegiatan</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </div>
+    </ul>
+    <!-- end navigatoin phone -->
+
+    <!-- end navigatoin -->
+
+
+
+
+    <!-- start code content -->
+     <div class="container-fluid" id="content">
+        <div class="container-contact">
+
+            <div class="sosmed" id="sosmed">
+                <p><a href="https://www.facebook.com/profile.php?id=100090457777854" target="_blank">
+                    <i class="fa fa-facebook-official" style="font-size:30px; color: blue;"></i>
+                </a></p>
+
+                <p><a href="https://www.instagram.com/remajamasjidalfath/" target="_blank">
+                    <i class="fa fa-instagram" style="font-size:30px; color: red;"></i>
+                </a></p>
+              </div>
+
+
+            <div class="box-contact">
+                <div class="box-left">
+                    <h2>Kirim Pesan</h2>
+
+                    <form action="" autocomplete="off">
+                        <div class="from-group">
+                            <label for="email">Email: </label>
+                            <input id="email" type="email" name="email" placeholder="Email...">
+                        </div>
+                        <div class="from-group">
+                            <label for="nama">Nama: </label>
+                            <input id="nama" type="text" name="nama" placeholder="Nama Lengkap...">
+                        </div>
+                        <div class="from-group">
+                            <label for="pesan">Pesan: </label>
+                            <textarea name="pesan" id="pesan" placeholder="Pesan..."></textarea>
+                        </div>
+        
+                        <div class="from-group">
+                           
+                            <button id="button" onclick="kirimPesan()">Kirim</button>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+                <div class="box-right">
+                    <h2>Alamat</h2>
+
+                    <div class="box-address">
+                        <iframe id="besar" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63713.41033988274!2d98.6930793!3d3.5671868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302d09259cd9d423%3A0x75296444200fdbdf!2sMasjid%20AL%20FATH!5e0!3m2!1sid!2sid!4v1736604875451!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        <iframe id="kecil" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127599.24291542842!2d99.922159!3d1.9632419999999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302d09259cd9d423%3A0x75296444200fdbdf!2sMasjid%20AL%20FATH!5e0!3m2!1sid!2sid!4v1737037945118!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+        
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer>
+            <h1>REMAJA MASJID AL-FATH</h1>
+            <p>Dusun Suhud Utara Desa Rintis Kec. Silangkitang Kab. Labuhanbatu Selatan</p>
+
+            <p class="copyright">&copy; Website Remaja Masjid Al-Fath</p>
+        </footer>
+     </div>
+     <!-- end code content -->
+
+
+    <!-- javascript -->
+    <script src="javascript/kontak.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
